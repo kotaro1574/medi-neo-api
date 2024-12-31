@@ -4,10 +4,15 @@ compatibility_date = "2024-12-24"
 
 # compatibility_flags = [ "nodejs_compat" ]
 
+[dev]
+ip = "0.0.0.0"
+port = 8787
+
 [vars]
 AWS_REGION="example-region"
 AWS_ACCESS_KEY_ID="example-access-key-id"
 AWS_SECRET_ACCESS_KEY="example-secret-access-key"
+PATIENT_FACES_BUCKET="example-bucket"
 
 # [[kv_namespaces]]
 # binding = "MY_KV_NAMESPACE"
